@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    div.a {
+  text-align: center;}
+  .p2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+  Body{background:#fffccc;}
+  padding {:50px;}
+
+  img{width:100%;}
+  </style>
+</head>
+<body>
+<div class="a">
+<h1> No Man Is An Island by John Donne </h1>
+<p class="p2">No man is an island,</p>
+<p class="p2">Every man is a piece of the continent,</p>
+<p class="p2">A part of the main.</p>
+<p class="p2">If a clod be washed away by the sea,</p>
+<p class="p2">Europe is the less.</p>
+<p class="p2">As well as if a promontory were.</p>
+<p class="p2">As well as if a manor of thy friends</p>
+<p class="p2">Or of thine own were:</p>
+<p class="p2">Any mans death diminishes me,</p>
+<p class="p2">Because I am involved in mankind,</p>
+<p class="p2">And therefore never send to know for whom the bell tolls;</p>
+<p class="p2">It tolls for thee.</p>
+</p class="p2">
+</div.a>
+</body>
+</html>
