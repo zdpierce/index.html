@@ -47,81 +47,106 @@ div.text img {
   border-color: white;
 }
 .slide2 {
-  position: absolute;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   background-color: black;
   width: 100%;
-  height:903px;
+  grid-gap: 5vw;
   overflow: hidden;
 }
 .text2 {
   color:white;
-  position: absolute;
-  bottom: 220px;
-  left: 18px;
+align-self: center;
+justify-self: center;
   font-family: 'Montserrat Regular', sans-serif;
 
 }
-.img1 {
-  position: absolute;
-  bottom: 300px;
-  left: 200px;
+.img1  {
+
+align-self: center;
+justify-self: center;
 }
-.img2 {
-  position: absolute;
-  bottom: 175px;
-  left: 900px;
+.img2  {
+
+align-self: center;
+justify-self: center;
 }
-.img3 {
-  position: absolute;
-  bottom: -200px;
-  left: 900px;
+.img3  {
+
+align-self: center;
+justify-self: center;
+}
+.img1 img {
+width:80%;
+
+}
+.img2 img {
+width:50%;
+
+}
+.img3 img {
+width:50%;
+
 }
 .slide3 {
   position: relative;
-  bottom: -903px;
+display: grid;
   width: 100%;
-  height:2077px;
-  background-color: gray;
+  height:2500px;
+  background: rgb(0,0,0);
+background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(131,131,131,1) 21%, rgba(105,105,105,1) 74%, rgba(0,0,0,1) 100%);
+grid-template-columns: 1fr 1fr;
+grid-gap: 10vw;
   overflow: hidden;
 }
 .image4 {
-  position: absolute;
-  bottom: 1050px;
-  left: 450px;
+  align-self: center;
+  justify-self: center;
+
+}
+.image4 img{
+  width:80%;
+  padding-left: 10vw;
+  padding-top: 20vw
 }
 .slide4 {
-  position: relative;
-  bottom: -903px;
+display: grid;
   width: 100%;
-  height:1000px;
+  height:1500px;
   background-color: black;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10vw;
   overflow: hidden;
 }
 .text3 {
   color:white;
-  position: absolute;
-  bottom: 1550px;
-  left: 450px;
+  align-self: center;
+  justify-self: center;
   font-family: 'Montserrat Regular', sans-serif;
   font-size: 20px;
+  padding-left: -10vw;
+  padding-top: 10vw;
 }
 .img8 {
-  position: absolute;
-  bottom: 200px;
-  left: 300px;
+  align-self: center;
+  justify-self: center;
+}
+.img8 img {
+    width:100%;
+    padding-left: 15vw;
+    padding top: 70vw;
 }
 .text8 {
   color:white;
-  position: absolute;
-  bottom: 360px;
-  left: 700px;
+  align-self: center;
+  justify-self: center;
+  padding right: 20vw;
+  padding-left: 10vw;
   font-family: 'Montserrat Regular', sans-serif;
   font-size: 20px;
 }
 .buy-now2 {
-  position: absolute;
-  bottom: -30px;
-  left: 0px;
+  display: grid;
   width: 100px;
   height: 30px;
   background-color: white;
@@ -130,21 +155,45 @@ div.text img {
   font-size: 10px;
   text-align: center;
   border-radius: 5px;
-  border-color: white;
+  border-color: white
 }
+.buy-now2 p {
+  align-self: center;
+  justify-self: center;
+}
+.buy-now:hover {background-color: Gray}
+
+.buy-now2:hover {background-color: Gray}
+
 .image5 {
-  position: absolute;
-
+  align-self: center;
+  justify-self: center;
 }
-.image6 {
 
+.image5 img{
+  width:100%;
+  padding-left:0vw;
+  padding-top: 0vw;
 }
-.image7 {
 
-}
 body{padding:0; margin:0}
 
 div.slide{min-height:100vh;}
+
+
+.text4 {color:white;
+  align-self: center;
+  justify-self: center;
+  padding-left: 5vw;
+  padding-top: 0vw;
+font-family: 'Montserrat Regular', sans-serif;
+font-size: 20px;}
+
+div.slideholder {
+  padding:4vw;
+  background-color: black;
+}
+
 
 </style>
 <body>
@@ -161,28 +210,27 @@ div.slide{min-height:100vh;}
    </div>
   </div>
 </div>
-<div class="slide2">
-  <div class="img1">
-  <img src="res/wristspray.png" alt="image of spraycare wristband's spray range ">
-  <div class="img2">
-    <img src="res/sprayare.png" alt="image of spraycare wristband's spray range ">
-  </div>
-    <div class="img3">
-    <img src="res/otheratomizers.png" alt="image of spraycare wristband's spray range ">
-  </div>
+<div class="slideholder"><div class="slide2">
   <div class="text2">
     <h1>Disinfectant Spray</h1>
-      <p>With SprayCare™ you can disinfect
+      <p>With SprayCare you can disinfect
          any surface with ease.<br>
           The sanitizing liquid can be directed<br>
            onto any surface or into the palm of your hand. </p>
-
-
-
+</div>
+<div class="img2">
+  <img src="res/sprayare.png" alt="image of spraycare wristband's spray range ">
+</div>
+  <div class="img1">
+  <img src="res/wristspray.png" alt="image of spraycare wristband's spray range ">
+</div>
+    <div class="img3">
+    <img src="res/otheratomizers.png" alt="image of spraycare wristband's spray range ">
+  </div>
 </div>
 </div>
-</div>
- <div class="slide">
+
+
 <div class="slide3">
 
 <div class="image4">
@@ -193,15 +241,27 @@ div.slide{min-height:100vh;}
     <p>Our team placed great emphasis on the product design to <br>
       make it an elegant alternative to carrying cumbersome bottles of hand sanitizer.</p>
     </div>
+    <div class="text4">
+    <h1>Can be used anywhere</h1>
+    <p>Balancing form and functionality were essential to make a convenient,
+      fashionable and effective product. SprayCare provides the security and
+      convenience of always having disinfecting spray available. </p> </div>
+
+
+        <div class="image5">
+        <img src="res/work.png" alt="image of a person working on a computer">
 </div>
-</div>
-</div>
+      </div>
+
+
 
 <div class="slide4">
   <div class="img8">
   <img src="res/color.png" alt="picture showcasing the diffrent color options spraycare has">
+</div>
   <div class="text8">
     <h1> Choose your color!</h1>
+
     <div class="buy-now2">
       <p>Buy Now</p>
     </div>
@@ -209,15 +269,3 @@ div.slide{min-height:100vh;}
 </div>
 </body>
 </html>
-<div class="image4">
-  <img src="res/wrist.jpg" alt="image of the wristband spraying a some writing utensils">
-  <div class="image5">
-
-  <img src="res/work.jpg" alt="image of a person working on a computer">
-</div>
-  <div class="image6">
-<img src="res/home.jpg" alt="image of a house">
-</div>
-    <div class="image7">
-<img src="res/gym.jpg" alt= "image of a person working out">
-</div>
